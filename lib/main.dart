@@ -110,25 +110,9 @@ class _MyHomePageState extends State<MyHomePage> {
 
   void _balancePage() {
     Navigator.of(context).push(
-      MaterialPageRoute(builder: (BuildContext context) => const CheckOut()
-
-          /*{return Scaffold(
-            appBar: AppBar(
-              title: Text(widget.title),
-            ),
-            body: Center(
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: const [
-                  Text(
-                    'This is your second page',
-                  ),
-                ],
-              ),
-            ),
-          );
-        },*/
-          ),
+      MaterialPageRoute(
+        builder: (BuildContext context) => const CheckOut(),
+      ),
     );
   }
 
